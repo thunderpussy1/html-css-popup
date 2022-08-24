@@ -64,7 +64,9 @@ color: var(--color-nav);
     position: absolute;
     top: 4rem;
     left: -8.5rem;
-    width: 20rem;
+    width: 20.5rem;
+    overflow-y: auto;
+    max-height: 24rem;
 
 }
 
