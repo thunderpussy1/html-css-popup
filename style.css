@@ -67,7 +67,6 @@ color: var(--color-nav);
     width: 20.5rem;
     overflow-y: auto;
     max-height: 24rem;
-
 }
 
 /* popup logic */
@@ -81,6 +80,7 @@ color: var(--color-nav);
 .popup__btn_more:checked ~ .popup_btn_label {
     display: none;
 }
+
 .popup__box {
     display: flex;
     justify-content: space-evenly;
@@ -97,7 +97,6 @@ color: var(--color-nav);
 .popup__box_item__img {
     width: 2rem;
 }
-
 .popup__box_item_link {
     display: grid;
     justify-items: center;
@@ -129,9 +128,8 @@ color: var(--color-nav);
 .btn_kottans {
     width: 100%;
     text-align: center;
-    padding-bottom: 5px 0;
+    padding-bottom: 5px;
 }
-
 .header__nav_box_item:focus, 
 .header__nav_box_item:hover, 
 .popup__box_item_link:hover,
@@ -144,7 +142,6 @@ color: var(--color-nav);
   outline: 0.18rem solid white;
   border-radius: 0.4rem;
 }
-
 @media (max-width: 768px) {
     * {
         font-size: 14px;
