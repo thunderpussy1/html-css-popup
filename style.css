@@ -71,7 +71,7 @@ color: var(--color-nav);
     left: -8.5rem;
     width: 20.5rem;
     overflow-y: auto;
-    max-height: 24rem;
+    max-height: 24.5rem;
 }
 
 /* popup logic */
@@ -141,11 +141,11 @@ input[type="checkbox"].header__nav_box_item_popup:hover ~ .popup_label,
 .header__nav_box_item_link:hover, 
 .popup__box_item_link:hover,
 .popup__box_item_link:focus, 
-.header__nav_box_item_popup:hover + .popup_label, 
 .popup_btn_label:hover, 
 .popup__btn_more:focus + .popup_btn_label,
 .popup__box_item_link_k:hover,
-.popup__box_item_link_k:focus {
+.popup__box_item_link_k:focus,
+.header__nav_box_item:active {
   outline: 0.18rem solid white;
   border-radius: 0.4rem;
 }
@@ -167,9 +167,10 @@ input[type="checkbox"].header__nav_box_item_popup:hover ~ .popup_label,
     .popup {
     left: auto;
     width: 100vw;
+    max-height: 32.5rem;
     }
     .popup__box_item_link {
         width: 30vw;
-        height: 5rem;
+        height: 7rem;
     }
 }
